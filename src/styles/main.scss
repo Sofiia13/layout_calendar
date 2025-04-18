@@ -52,7 +52,7 @@ body {
 
 @for $length from 28 through 31 {
   .calendar--month-length-#{$length} {
-    .day:nth-child(n + #{$length + 1}) {
+    .calendar__day:nth-child(n + #{$length + 1}) {
       display: none;
     }
   }
