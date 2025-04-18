@@ -17,7 +17,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: $gap;
-  width: calc(#{$width} * #{$columns} + 10px);
+  width: 706px;
 }
 
 .calendar__day {
@@ -29,6 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #000;
+  transition-duration: 500ms;
 }
 
 .calendar__day:hover {
